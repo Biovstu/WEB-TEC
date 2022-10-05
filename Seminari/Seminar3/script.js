@@ -20,18 +20,24 @@
 // } else {alert('Жаль, что в не уверены');
 // }
 
-let age = parseInt(prompt('Ваш возраст?'))
+// let age = parseInt(prompt('Ваш возраст?'))
 
-switch (age) {
-    case 80:
-        alert(age + ' - Воу');
-        break;
-    case 60:
-        alert(age + ' - Ух');
-        break;
-    case 20:
-        alert(age + ' - Ес');
-        break;
-    default:
-        alert(age + ' - Что-от на непонятном')
+// switch (age) {
+//     case 80:
+//         alert(age + ' - Воу');
+//         break;
+//     case 60:
+//         alert(age + ' - Ух');
+//         break;
+//     case 20:
+//         alert(age + ' - Ес');
+//         break;
+//     default:
+//         alert(age + ' - Что-от на непонятном')
+// }
+
+function print_name(){
+    let fio = prompt('Какое у вас имя?', 'Имя')
+    alert('Привет, '+ fio + '!')
 }
+print_name()
